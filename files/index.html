@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The History of Internet Packets</title>
+</head>
+
+<!-- The frameset splits the window. Here: a top row, then a bottom row split into two columns. -->
+<frameset rows="90,*">
+
+  <!-- Top frame: the title -->
+  <frame src="header.html" name="header" noresize scrolling="no">
+
+  <!-- Bottom area: menu on the left, content on the right -->
+  <frameset cols="220,*">
+    <frame src="menu.html" name="menu" noresize>
+    <frame src="what.html" name="content">
+  </frameset>
+
+  <noframes>
+    <body>
+      <p>Your browser does not support frames. Open <a href="what.html">what.html</a> instead.</p>
+    </body>
+  </noframes>
+
+</frameset>
+</html>
